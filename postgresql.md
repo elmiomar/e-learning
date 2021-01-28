@@ -46,7 +46,7 @@ Which will bypass the intermediate shell and log you directly into Postgres prom
 
 ### Create new roles
 
-You can create new roles from the command line with the `createrole` command:
+You can create new roles from the command line with the `createuser` command:
 
 ```
 sudo -u postgres createuser --interactive
@@ -60,7 +60,7 @@ The `--interactive` flag will prompt you for the name of the new role and also a
 To create a database use the `createdb` command:
 
 ```
-sudo -u postgres createdb sammy
+sudo -u postgres createdb someuser
 ```
 
 
